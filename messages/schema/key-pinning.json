@@ -1,0 +1,28 @@
+{
+  "title": "Pin validation failure",
+  "type": "object",
+  "properties": {
+    "date-time": {
+      "type": "string"
+    },
+    "hostname": {
+      "port": "integer"
+    },
+    "certificate-chain": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "known-pins": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": ["date-time", "hostname", "port", "certificate-chain", "known-pins"]
+}
+

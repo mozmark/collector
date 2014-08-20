@@ -1,0 +1,11 @@
+{
+  "date-time": "1985-04-12T23:20:50.52Z",
+  "hostname": "example.com",
+  "port": 443,
+  "certificate-chain": [
+      "PEM1", "PEM2"
+      ],
+  "known-pins": [
+      "pin1", "pin2"
+      ]
+}
